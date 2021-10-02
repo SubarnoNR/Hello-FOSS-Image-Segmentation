@@ -11,5 +11,6 @@ Brain tumors, are one of the most common and aggressive type of cancers, leading
 In this challenge we will ask you to build a model to try and identify which of the patients have a brain tumor. We will be using a simple Convolutional Neural Network for the model. 
 
 ### Dataset
-We will be using the LGG MRI Segmentation dataset. This will be used for this as well as the next challenge. The images used in the dataset were obtained from The Cancer Imaging Archive (TCIA).
+We will be using the LGG MRI Segmentation dataset. The images used in the dataset were obtained from The Cancer Imaging Archive (TCIA).
 They correspond to 110 patients included in The Cancer Genome Atlas (TCGA) lower-grade glioma collection.
+You can find the dataset [here](https://drive.google.com/drive/u/1/folders/1vdmDnEGVQhu8gnJvYup2-1ajwHujTLrE). As you can see there are a 110 folders each containg the MRI scans for that patient. The brain tumor will be visible in only some of those scans. 
