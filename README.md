@@ -17,7 +17,7 @@ A fully convolution network is a neural network that only performs convolution i
 ### Dataset
 We will be using the LGG MRI Segmentation dataset. The images used in the dataset were obtained from The Cancer Imaging Archive (TCIA).
 They correspond to 110 patients included in The Cancer Genome Atlas (TCGA) lower-grade glioma collection.
-You can find the dataset [here]. As you can see there are a 110 folders each containg the MRI scans for that patient. Each patient has a number of MRI scans for different positions and slices. 
+You can find the dataset [here](https://github.com/SubarnoNR/Hello-FOSS-Image-Segmentation/tree/main/Dataset). As you can see there are a 110 folders each containg the MRI scans for that patient. Each patient has a number of MRI scans for different positions and slices. 
 
 ### The Tasks
 1) **Imporoving model architecture and hyperparameter tuning**: A basic model implemented using this dataset can be found [here]. As you can see even though the binary accuracy looks high but the low iou clearly tells that the model is not at all optimum. Thus add/modify the layers, adjust the hyperparameters and try to improve the model for better IOU. 
