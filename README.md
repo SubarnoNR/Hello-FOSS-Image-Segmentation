@@ -11,7 +11,7 @@ In this challenge we will ask you to build a model to try and identify which of 
 ### The dataset
 The dataset to be used can be found [here](https://github.com/sartajbhuvaji/brain-tumor-classification-dataset). The training and test images have already been split. The dataset contains MRI scnas of 5 different types. One folder contains scans of helathy people while others contain with 4 different types of brain tumors. Binary as well as multi class classification can be performed using this dataset.
 
-**The code** can be found in the notebook [here]().
+**The code** can be found in the notebook [here](https://github.com/SubarnoNR/Hello-FOSS-Image-Segmentation/blob/main/Brain_Tumour_Classification.ipynb).
 ### Tasks
 
 1) The first task is to load and prepare the dataset for it to be fed into the model during training. You need to modify the dataset by dividing it into tumour and no tumour by combining all the images from different types of tumour into a single tumour folder.  There are many ways to proceed with loading the dataset, out of which 2 have been mentioned in the notebook. You can experiment with data augmentation and batch size to get a better performance. 
