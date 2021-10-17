@@ -9,6 +9,20 @@ Brain tumors, are one of the most common and aggressive type of cancers, leading
 
 In this challenge we will ask you to build a model to try and identify which of the patients have a brain tumor. We will be using a simple Convolutional Neural Network for the model. 
 
+### Tasks
+
+1) The first task is to load and prepare the dataset for it to be fed into the model during training. You need to modify the dataset by dividing it into tumour and no tumour by combining all the images from different types of tumour into a single tumour folder.  There are many ways to proceed with loading the dataset, out of which 2 have been mentioned in the notebook. You can experiment with data augmentation and batch size to get a better performance. 
+
+2) The second task is to decide the model architecture. A basic model architecture has been provided for your convenience. However, you can experiment with different architectures, initialization, kernel size and number of filters or even perform Transfer Learning for a better performance. 
+
+3) The third task is to experiment and decide the optimisers, loss functions and metrics for the model. 
+
+4) The fourth task is to choose the appropriate parameters for the fit function to get a better accuracy. You can even try different things like callbacks and schedulers which may or may not increase your performance. 
+
+5) Observe the graphs for training and validation loss and accuracy and check for underfitting or overfitting depending on the graphs and change the hyperparameters accordingly.
+
+6) Instead of doing a binary classfication now use the dataset as it is and modify the model architecture to perform multi-class classficiation to identify the type of tumors as well.
+
 # 2) Brain Tumor Segmentation 
 After classifiying that whether the patient has a brain tumor or what kind of brain tumor does he have, the next step is to identify the brain tumor from the MRI scan. Now this becomes a semantic image segmentation problem. Image segmentation is a computer vision task in which we label specific regions of an image according to what's being shown. To solve this we will move on from CNNs to FCNs(Fully Convolutional Networks).
 
